@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/go-fucking-do-it/static/css/main.1635e87c.chunk.css",
+    "main.js": "/go-fucking-do-it/static/js/main.ba3a2a4d.chunk.js",
+    "main.js.map": "/go-fucking-do-it/static/js/main.ba3a2a4d.chunk.js.map",
+    "runtime-main.js": "/go-fucking-do-it/static/js/runtime-main.89e9e60e.js",
+    "runtime-main.js.map": "/go-fucking-do-it/static/js/runtime-main.89e9e60e.js.map",
+    "static/css/2.7274bcc8.chunk.css": "/go-fucking-do-it/static/css/2.7274bcc8.chunk.css",
+    "static/js/2.3e177de6.chunk.js": "/go-fucking-do-it/static/js/2.3e177de6.chunk.js",
+    "static/js/2.3e177de6.chunk.js.map": "/go-fucking-do-it/static/js/2.3e177de6.chunk.js.map",
+    "index.html": "/go-fucking-do-it/index.html",
+    "static/css/2.7274bcc8.chunk.css.map": "/go-fucking-do-it/static/css/2.7274bcc8.chunk.css.map",
+    "static/css/main.1635e87c.chunk.css.map": "/go-fucking-do-it/static/css/main.1635e87c.chunk.css.map",
+    "static/js/2.3e177de6.chunk.js.LICENSE.txt": "/go-fucking-do-it/static/js/2.3e177de6.chunk.js.LICENSE.txt",
+    "static/media/400.css": "/go-fucking-do-it/static/media/chivo-latin-ext-400-normal.8b9f6ea8.woff2",
+    "static/media/700.css": "/go-fucking-do-it/static/media/chivo-latin-ext-700-normal.af0d78dd.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89e9e60e.js",
+    "static/css/2.7274bcc8.chunk.css",
+    "static/js/2.3e177de6.chunk.js",
+    "static/css/main.1635e87c.chunk.css",
+    "static/js/main.ba3a2a4d.chunk.js"
+  ]
+}
