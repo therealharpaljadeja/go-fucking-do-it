@@ -17,7 +17,7 @@
 
 
 # How to use?
-#### 👉 Check you this youtube video. Click here!
+#### 👉 Check you this youtube video. [Click here!](https://www.youtube.com/watch?v=hywoYKvRwzU)
 
 
 
