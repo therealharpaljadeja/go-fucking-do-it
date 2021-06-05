@@ -1,75 +1,68 @@
-<<<<<<< HEAD
-# go-fucking-do-it
-Go-Fucking-Do-It Web3 App
-=======
-# Getting Started with Create React App
+# Go Fucking Do It
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - Have you ever felt the lack of motivation to complete a task? I am sure you do many times. 😔
+ - Have you also come across situations where you performed way better than you actually thought of because if you don't you might lose something important? 😲
+ - For example, completing an assignment at the last moment so you don't get fired. 😟
+ - This is called "Fear Motivation". 
+ - Fear is the most powerful motivator if used effectively.
+ - But using fear for motivation is not possible for every task.
+ - For example, learning a new skill.
+ - So here is the solution, 
+ 
+ - **"Go Fucking Do It" lets you create a task (I call it promise) with a deadline, a specified amount of crypto attached to it and a friend which acts a verifier (whether you completed your task or not). 🤩 **
+ - **If you complete the task before the deadline let your friend verify it. If your friend approves you can request him/her to click "Fulfill" button corresponding to your promise (a.k.a task).** 
+ - ***Once done, you will be refunded your funds.*** 
+ - **But if you don't complete your task before the deadline either me or your friend can fulfill it but this time the funds will be funded to me.** 
+ - ***Use this app as a fear motivator and get your tasks done!***
 
-## Available Scripts
 
-In the project directory, you can run:
+# How to use?
+#### 👉 Check you this youtube video. Click here!
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# FAQ
+###  👉 Why should I trust your app?
+#### ✔️ You can check out the smart contract code in which you will find that i cannot take your funds until the deadline has passed. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###  👉 Where can I see the smart contract code? 
+#### ✔️ You can [Click here](https://explorer-mainnet.maticvigil.com/address/0x8E96E9B6bCB3DA7e7459f3115B4D4Ca364050429/contracts) to check the code.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###  👉 What is the contract address? 
+#### ✔️ Contract address is 0x8E96E9B6bCB3DA7e7459f3115B4D4Ca364050429.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###  👉 Do I need any additional software to use this app?
+#### ✔️ You can use this app using Chrome or Firefox browser. You will also need Metamask Extension with some Matic tokens in it. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+###  👉 Which cryptocurrency can I stake?
+#### ✔️ Currently you can only stake Matic which is the native currency of the Matic Chain.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+###  👉 Is it free?
+#### ✔️ No, there is 1% fee on every Promise a.k.a Task you create.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+###  👉 Can I change my deadline once the Promise is created?
+#### ✔️ No, you can't 😅 that's the point.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+###  👉 I don't see my promise under Promises page?
+#### ✔️ Refresh. If it still doesn't show up check whether the transaction succeeded.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+###  👉 What if you shut the app and take all my money? 
+#### ✔️ Even if you can't access the frontend you can go the blockchain explorer and execute the fulfill promise function and get your funds back provided it being done by the friend wallet before the deadline you specified.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+###  👉 Why I should trust the Matic Chain? 
+#### ✔️ It has a market cap of $10B and over 1.2 Million Wallets using it.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Tech Stack
+#### Web3JS, ReactJS, Chakra UI, Truffle.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> master
+##### How did you implement ${functionality-here}. Contact me on [LinkedIn](https://www.linkedin.com/in/harpalsinhjadeja/).
