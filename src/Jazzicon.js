@@ -1,6 +1,5 @@
 import {createRef, PureComponent} from "react";
 import jazzicon from "@metamask/jazzicon";
-import Box from "@chakra-ui/react";
 
 export default class Jazzicon extends PureComponent {
     container = createRef();

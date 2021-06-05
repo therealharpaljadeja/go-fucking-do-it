@@ -28,7 +28,7 @@ function PromiseForm(props) {
     const [friend, setFriend] = useState("");
     const [isWaitingForConfirmation, setIsWaitingForConfirmation] = useState(false);
 
-    const Contract = new web3.eth.Contract(abi, "0x3152a865A4fc27A523ABc69Ac234dEc611a60Da7");
+    const Contract = new web3.eth.Contract(abi, "0x8E96E9B6bCB3DA7e7459f3115B4D4Ca364050429");
 
     const createPromise = async (event) => {
         event.preventDefault();

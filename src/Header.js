@@ -63,7 +63,7 @@ function Header(props){
             <Box>
                 {
                     props.chainId == "137" ?
-                    <Link isExternal style={{textDecoration: "none"}} href="https://explorer-mainnet.maticvigil.com/address/0x3152a865A4fc27A523ABc69Ac234dEc611a60Da7">
+                    <Link isExternal style={{textDecoration: "none"}} href="https://explorer-mainnet.maticvigil.com/address/0x8E96E9B6bCB3DA7e7459f3115B4D4Ca364050429">
                         <Button variant="ghost" colorScheme="twitter">Contract</Button>
                     </Link> : 
                     ""

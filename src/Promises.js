@@ -1,4 +1,4 @@
-import { Box, Divider, Grid, GridItem, Heading, HStack, VStack, Tooltip, Spinner, Table, Thead, Tr, Th, Tbody, TagCloseButton, Tag, Button, useToast, Link } from "@chakra-ui/react";
+import { Box, Divider, Grid, GridItem, Heading, HStack, Tooltip, Spinner, Table, Thead, Tr, Th, Tbody, TagCloseButton, Tag, Button, useToast, Link } from "@chakra-ui/react";
 import { useState, useEffect, useCallback } from "react";
 import { FaInfoCircle } from "react-icons/fa";
 import Web3 from "web3";
@@ -9,7 +9,7 @@ function Promises(props) {
 
     const web3 = new Web3(window.ethereum);
     const toast = useToast();
-    const Contract = new web3.eth.Contract(abi, "0x3152a865A4fc27A523ABc69Ac234dEc611a60Da7");
+    const Contract = new web3.eth.Contract(abi, "0x8E96E9B6bCB3DA7e7459f3115B4D4Ca364050429");
     const [promisesToFulfill, setPromisesToFulfill] = useState([]);
     const [promisesToVerify, setPromisesToVerify] = useState([]);
     const [isLoadingPromisesToFulfill, setIsLoadingPromisesToFulfill] = useState(true);
