@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Stack, useDisclosure } from "@chakra-ui/react";
 import Header from './Header';
 import PromiseForm from "./PromiseForm";
@@ -14,19 +14,29 @@ import Promises from './Promises';
 function App() {
   const web3 = new Web3(window.ethereum);
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [currentAccount, setCurrentAccount] = useState(window.ethereum.selectedAddress);
+  const [currentAccount, setCurrentAccount] = useState();
+  const [chainId, setChainId] = useState();
+  useEffect(() => {
+    if(window.ethereum) {
+      setCurrentAccount(window.ethereum.selectedAddress);
+      setChainId(window.ethereum.networkVersion);
+    }
+  }, [currentAccount, chainId, window.ethereum]);
+
+  if(window.ethereum) {
+    window.ethereum.on("accountsChanged", (accounts) => {
+      setCurrentAccount(accounts[0]);
+    });
+  
+    window.ethereum.on("chainChanged", async (chainId) => {
+      const newChainId = await web3.eth.getChainId();
+      setChainId(newChainId);
+    });
+  }
   const [isHome, setIsHome] = useState(true);
 
-  window.ethereum.on("accountsChanged", (accounts) => {
-    setCurrentAccount(accounts[0]);
-  });
+  
 
-  window.ethereum.on("chainChanged", async (chainId) => {
-    const newChainId = await web3.eth.getChainId();
-    setChainId(newChainId);
-  });
-
-  const [chainId, setChainId] = useState(window.ethereum.networkVersion);
   return (
     <React.Fragment>
       <Stack justify="center" spacing={20} height="100%">
