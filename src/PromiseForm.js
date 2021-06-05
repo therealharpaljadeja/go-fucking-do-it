@@ -34,7 +34,7 @@ function PromiseForm(props) {
         event.preventDefault();
         setIsWaitingForConfirmation(true);
         const nowTimestamp = new Date();
-        const endTimeStamp = Math.floor(nowTimestamp.setDate(nowTimestamp.getDate() + 10) / 1000);
+        const endTimeStamp = Math.floor(nowTimestamp.setDate(nowTimestamp.getDate() + parseInt(promiseDeadline)) / 1000);
         const tx = Contract.methods.createPromise(promiseTask, web3.utils.toWei(promiseAmount, "ether"), friend, endTimeStamp)
         .send({from: props.currentAccount, value:web3.utils.toWei(promiseAmount, "ether")})
         .on("error", (error, receipt) => {
