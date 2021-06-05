@@ -9,7 +9,7 @@
  - For example, learning a new skill.
  - So here is the solution, 
  
- - **"Go Fucking Do It" lets you create a task (I call it promise) with a deadline, a specified amount of crypto attached to it and a friend which acts a verifier (whether you completed your task or not). 🤩 **
+ - **"Go Fucking Do It" lets you create a task (I call it promise) with a deadline, a specified amount of crypto attached to it and a friend which acts a verifier (whether you completed your task or not). 🤩**
  - **If you complete the task before the deadline let your friend verify it. If your friend approves you can request him/her to click "Fulfill" button corresponding to your promise (a.k.a task).** 
  - ***Once done, you will be refunded your funds.*** 
  - **But if you don't complete your task before the deadline either me or your friend can fulfill it but this time the funds will be funded to me.** 
@@ -17,7 +17,7 @@
 
 
 # How to use?
-#### 👉 Check you this youtube video. Click here!
+#### 👉 Check you this youtube video. [Click here!](https://www.youtube.com/watch?v=hywoYKvRwzU)
 
 
 
